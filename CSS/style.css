@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&family=Kosugi&family=LXGW+WenKai+TC&family=Mochiy+Pop+One&family=Mochiy+Pop+P+One&family=Noto+Serif+JP:wght@200..900&family=Shippori+Antique&family=Shippori+Antique+B1&family=Zen+Antique&family=Zen+Old+Mincho&display=swap');
+
+body {
+    background-color: #c6ecfe;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+#container {
+    width: 100%;
+    max-width: 990px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(to bottom, #4ebafb, #baebff);
+}
+
+#menu_list ul {
+    display: flex;
+    list-style: none;
+    max-width: 990px;
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 4%;
+    padding-right: 4%;
+    position: absolute;
+    
+}
+
+.button1 a:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.button2 a:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.button3 a:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#start {
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    height: 550px;
+    width: 100%;
+    max-width: 990px;
+}
+
+#ramen_tamago {
+    display: flex;
+    width: 100%;
+    max-width: 990px;
+    background-image: url(../img/Background-ramen-tamago.jpg);
+    margin: 0;
+    height: 537px;
+    padding-top: 8.2%;
+    padding-bottom: 6%;
+    padding-left: 2.2%;
+    padding-right: 2.2%;
+}
+
+#judul-RT img {
+    display: block;
+    width: 450px;
+    height: 150px;
+}
+
+#keterangan1 {
+    display: block;
+    width: 90%;
+    margin-left: 2%;
+    margin-top: 4%;
+    padding: 5%;
+    background-color: #dfe8cc;
+}
+
+#soranoiro_ramen {
+    display: flex;
+    width: 100%;
+    max-width: 990px;
+    background-image: url(../img/Background-sora-no-iro.jpg);
+    background-size: cover;
+    height: 540px;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    margin: 0;
+    padding-left: 2.2%;
+    padding-right: 2.1%;
+}
+
+#judul-sni img {
+    display: block;
+    width: 390px;
+    height: 160px;
+    padding-left: 5%;
+}
+
+#judul-sni {
+    margin-left: 8%;
+}
+
+#keterangan2 {
+    display: block;
+    width: 92%;
+    padding: 5%;
+    margin-top: 5%;
+    background-color: #ffcccd;
+}
+
+#hirugao {
+    display: flex;
+    width: 100%;
+    max-width: 990px;
+    background-image: url(../img/Background-hirugao.jpg);
+    height: 419px;
+    margin: 0;
+    padding-left: 2.2%;
+    padding-right: 2.2%;
+}
+
+#judul-hg img {
+    display: block;
+    width: 420px;
+    height: 160px;
+}
+
+#keterangan3 {
+    display: block;
+    width: 90%;
+    margin-left: 2%;
+    margin-top: 5%;
+    padding: 5%;
+    background-color: #dfe8cc;
+}
+
+#kupon {
+    display: block;
+    position: absolute;
+    max-width: 990px;
+    width: 100%;
+    left: 40%;
+}
+
+#kupon a:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#kupon img {
+    width: 400px;
+    height: 120px;
+}
+
+#akses {
+    display: block;
+    width: 100%;
+    max-width: 990px;
+    text-align: center;
+    background-image: url(../img/Background-bawah.jpg);
+    padding-top: 32%;
+    padding-bottom: 3%;
+    margin: 0;
+}
+
+#judul-RT {
+    display: block;
+    padding-top: 5%;
+}
+
+#judul-sni {
+    display: block;
+    padding-top: 5%;
+}
+
+h1 {
+    font-family: "Mochiy Pop P One", sans-serif;
+    font-weight: 400;
+    padding-bottom: 1%;
+    font-size: 52px;
+    color: floralwhite;
+    -webkit-text-stroke: 3px #3c200c;
+}
+
+#main4 {
+    font-family: "Zen Antique", serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #3a2118;
+}
+
+#sub4 {
+    font-family: "Zen Antique", serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#main1 {
+    font-family: "Shippori Antique", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#sub1 {
+    font-family: "Shippori Antique", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: firebrick;
+}
+
+#main2 {
+    font-family: "Shippori Antique", sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+}
+
+#sub2 {
+    font-family: "Shippori Antique", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: firebrick;
+}
+
+#main3 {
+    font-family: "Shippori Antique", sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+}
+
+#sub3 {
+    font-family: "Shippori Antique", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: firebrick;
+}
