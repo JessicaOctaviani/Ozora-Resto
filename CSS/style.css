@@ -151,7 +151,7 @@ div {
     position: absolute;
     max-width: 990px;
     width: 100%;
-    left: 40%;
+    padding-left: 15%;
 }
 
 #kupon a:hover {
@@ -163,6 +163,8 @@ div {
     width: 400px;
     height: 120px;
 }
+
+
 
 #akses {
     display: block;
